@@ -4,7 +4,7 @@ This is a very simple application demonstrating the use of the [Elli](https://gi
 
 ## Running It
 
-The skeleton and supporting files for this application were generated with [lfetool](https://github.com/lfe/lfetool). The Makefile has a shell target so all you have to do is:
+The skeleton and supporting files for this application were generated with [lfetool](https://github.com/lfe/lfetool) so make sure that's installed. The Makefile has a shell target so all you have to do is:
 
 ```shell
     $ make shell
