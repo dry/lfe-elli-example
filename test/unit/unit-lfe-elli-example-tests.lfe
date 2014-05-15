@@ -15,3 +15,11 @@
        '"old version"
        '"state"
        '"extra")))
+
+(deftest index-status
+  (application:start 'lfe-elli-example)
+  (inets:start)
+  (let (((tuple 'ok (tuple (tuple _ status _) headers body))
+         (httpc:request "http://localhost:3000")))
+    (application:stop 'lfe-elli-example)
+    (is-equal status 200)))
