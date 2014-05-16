@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dry/lfe-elli-example.svg?branch=master)](https://travis-ci.org/dry/lfe-elli-example)
+
 # LFE / Elli Example Application
 
 This is a very simple application demonstrating the use of the [Elli](https://github.com/knutin/elli) webserver and Lisp Flavored Erlang. This example was created with LFE v0.8.
