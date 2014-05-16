@@ -1,9 +1,9 @@
 language: erlang
+script: "make check-travis"
 notifications:
   recipients:
     - greg@purple-dogfish.co.uk
 otp_release:
-  - 17.0-rc1
-  - R16B03-1
+  - 17.0
   - R16B03
   - R15B03
