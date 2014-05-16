@@ -5,5 +5,5 @@ notifications:
     - greg@purple-dogfish.co.uk
 otp_release:
   - 17.0
-  - R16B03
+  - R16B03-1
   - R15B03
